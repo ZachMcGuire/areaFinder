@@ -1,0 +1,74 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.calculatorContainer {
+    display: flex;
+    justify-content: space-between;
+    border: .01rem solid black;
+    /* width: 60rem; */
+    margin-top: 4rem;
+}
+
+.numberContainer {
+    display: flex;
+    justify-content: space-between;
+    /* width: 30rem; */
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.containerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    font-weight: bolder;
+}
+
+.container1, .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    font-weight: bolder;
+}
+
+.number1, .number2 {
+    margin: 2rem;
+
+}
+
+.answerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.areaText, .totalArea {
+    margin: 2rem;
+}
+
+.totalArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .01rem solid black;
+    min-width: 6rem;
+    min-height: 3rem;
+
+}
+
+.getAnswer {
+    height: 3rem;
+    width: 6rem;
+}
